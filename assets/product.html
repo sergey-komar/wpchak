@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__top">
+              <a href="/" class="logo logo-mobile">
+                <img src="./images/home/logo.svg" alt="img">
+              </a>
+              <a href="#" class="header__top-item header__top-item--phone">+7 (963) 474-06-50</a>
+              <a href="#" class="header__top-item header__top-item--addres">
+                г. Челябинск, ул. Родькина, 13, помещение 202/2
+              </a>
+              <a href="#" class="header__top-item header__top-item--mail">chelcom@mail.ru</a>
+              <a href="#" class="header__top-item header__top-item--time">Пн-Пт 9:00-17:00</a>
+              <div class="nav-icon">
+                <div class="nav-icon__middle"></div>
+              </div>
+            </div>
+            <div class="header__center">
+              <a href="/" class="logo">
+                <img src="./images/home/logo.svg" alt="img">
+              </a>
+              <form class="header__search">
+                <button class="header__search-btn">
+                  <img src="./images/home/search.svg" alt="img">
+                </button>
+                <input type="text" class="header__search-input" placeholder="Найти товар...">
+              </form>
+              <div class="header__center-wrapper">
+                <a href="./cart.html" class="header__center-basket">
+                  <img src="./images/home/basket.svg" alt="img">
+                </a>
+                <a href="./favorites.html" class="header__center-heart">
+                  <img src="./images/home/heart.svg" alt="img">
+                </a>
+              </div>
+            </div>
+    
+            <div class="header__bottom">
+              <nav class="menu">
+                <ul class="menu__list">
+                  <li>
+                    <a href="./about.html">О нас</a>
+                  </li>
+                  <li>
+                    <a href="./delivery.html">Доставка и оплата</a>
+                  </li>
+                  <li>
+                    <a href="./catalog.html">Каталог</a>
+                  </li>
+                  <li>
+                    <a href="./valves.html">Задвижки</a>
+                  </li>
+                  <li>
+                    <a href="./valve.html">Клапаны </a>
+                  </li>
+                  <li>
+                    <a href="./contacts.html">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+    <main class="main">
+        <div class="breadcrumbs">
+            <div class="container">
+                <ul class="breadcrumbs__list">
+                    <li>
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">Фланец</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="product">
+            <div class="container">
+                <div class="product-block">
+                    <div class="product-left">
+                        <div class="product-left__img">
+                            <img src="./images/product/product-img.png" alt="img">
+                        </div>
+                        <div class="product-left__info">
+                            <div class="product-left__info-btn">В наличии</div>
+                            <div class="product-left__info-title">
+                                Фланец воротниковый стальной Ду 80 Ру 6 ст.20 ГОСТ 12821-80
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-right">
+                        <div class="product-order">
+                            <div class="product-order__top">
+                                <div class="product-order__top-arrows">
+                                    <img src="./images/product/product-arrows-left.png" alt="img">
+                                </div>
+                                <input type="text" class="quantity product-order__top-num" value="1"/>
+                                <div class="product-order__top-arrows inc">
+                                    <img src="./images/product/product-arrows-right.png" alt="img">
+                                </div>
+                            </div>
+    
+                            <div class="goods-block__info">
+                                <div class="goods-block__info-price">ОТ 1920 ₽</div>
+                                <div class="goods-block__info-icon">
+                                  <a href="#">
+                                    <img src="./images/home/goods-heart.svg" alt="img">
+                                  </a>
+                                  <a href="#">
+                                    <img src="./images/home/goods-basket.svg" alt="img">
+                                  </a>
+                                </div>
+                            </div>
+    
+                            <a href="#" class="product-order__btn btn">Оформить заказ</a>
+                        </div>
+    
+                        <div class="product-right__contact">
+                            <div class="product-right__contact-text">Наш телефон</div>
+                            <a href="#" class="product-right__contact-phone">+7 (963) 474-06-50</a>
+                            <button class="product-right__contact-btn btn">Хочу задать вопрос</button>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="tabs">
+                    <div class="tabs__title">О товаре</div>
+                    <!-- <div class="tabs__item">
+                        <button class="tabs__item-btn active">Характеристики:</button>
+                        <button class="tabs__item-btn tabs__item-btn--desc">Описание</button>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__info">
+                            <div class="tabs__desc">
+                                <div class="tabs__desc-title">Давление</div>
+                                <div class="tabs__desc-text">Ру6</div>
+                            </div>
+                            <div class="tabs__desc">
+                                <div class="tabs__desc-title">Нормативный документ</div>
+                                <div class="tabs__desc-text">ГОСТ 12821-80</div>
+                            </div>
+                            <div class="tabs__desc">
+                                <div class="tabs__desc-title">Марка стали</div>
+                                <div class="tabs__desc-text">Ст 20</div>
+                            </div>
+                            <div class="tabs__desc">
+                                <div class="tabs__desc-title">Производитель</div>
+                                <div class="tabs__desc-text">Россия</div>
+                            </div>
+                            <div class="tabs__desc">
+                                <div class="tabs__desc-title">Присоединение</div>
+                                <div class="tabs__desc-text">Фланцевое</div>
+                            </div>
+                            <div class="tabs__desc">
+                                <div class="tabs__desc-title">Тип</div>
+                                <div class="tabs__desc-text">Ру6</div>
+                            </div>
+                            <div class="tabs__desc">
+                                <div class="tabs__desc-title">Рабочая температура</div>
+                                <div class="tabs__desc-text">от -70 до +200℃</div>
+                            </div>
+                            <div class="tabs__desc">
+                                <div class="tabs__desc-title">Давление</div>
+                                <div class="tabs__desc-text">фланец воротниковый стальной</div>
+                            </div>
+                            <div class="tabs__desc">
+                                <div class="tabs__desc-title">Диаметр</div>
+                                <div class="tabs__desc-text">Ду80</div>
+                            </div>
+                            <div class="tabs__desc">
+                                <div class="tabs__desc-title">Давление</div>
+                                <div class="tabs__desc-text">Ру6</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__content">
+                        <p class="tabs__content-text">
+                            Фланец воротниковый выполненный по стандарту ГОСТ 12821-80 – это деталь трубопровода, которая имеет дополнительное кольцо. С помощью этого кольца стальные приварные фланцы стыкуются с трубой. Далее происходит обварка соединения сварочным швом.  
+                        </p>
+                        <p class="tabs__content-text">
+                            Температурные диапазоны эксплуатации воротникового фланца от -253 C до +600 C. Рабочее давление воротникового фланца – до 20 МПА.
+                            Возможно изготовление фланцев по ГОСТ 28759.
+                        </p>
+                    </div> -->
+                    
+
+                    <div class="tabs__inner">
+                      <div class="tabs__item">
+                        <button class="tabs__item-btn active">Характеристики:</button>
+                        <div class="tabs__content">
+                          <div class="tabs__info">
+                              <div class="tabs__desc">
+                                  <div class="tabs__desc-title">Давление</div>
+                                  <div class="tabs__desc-text">Ру6</div>
+                              </div>
+                              <div class="tabs__desc">
+                                  <div class="tabs__desc-title">Нормативный документ</div>
+                                  <div class="tabs__desc-text">ГОСТ 12821-80</div>
+                              </div>
+                              <div class="tabs__desc">
+                                  <div class="tabs__desc-title">Марка стали</div>
+                                  <div class="tabs__desc-text">Ст 20</div>
+                              </div>
+                              <div class="tabs__desc">
+                                  <div class="tabs__desc-title">Производитель</div>
+                                  <div class="tabs__desc-text">Россия</div>
+                              </div>
+                              <div class="tabs__desc">
+                                  <div class="tabs__desc-title">Присоединение</div>
+                                  <div class="tabs__desc-text">Фланцевое</div>
+                              </div>
+                              <div class="tabs__desc">
+                                  <div class="tabs__desc-title">Тип</div>
+                                  <div class="tabs__desc-text">Ру6</div>
+                              </div>
+                              <div class="tabs__desc">
+                                  <div class="tabs__desc-title">Рабочая температура</div>
+                                  <div class="tabs__desc-text">от -70 до +200℃</div>
+                              </div>
+                              <div class="tabs__desc">
+                                  <div class="tabs__desc-title">Давление</div>
+                                  <div class="tabs__desc-text">фланец воротниковый стальной</div>
+                              </div>
+                              <div class="tabs__desc">
+                                  <div class="tabs__desc-title">Диаметр</div>
+                                  <div class="tabs__desc-text">Ду80</div>
+                              </div>
+                              <div class="tabs__desc">
+                                  <div class="tabs__desc-title">Давление</div>
+                                  <div class="tabs__desc-text">Ру6</div>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+  
+                      <div class="tabs__item">
+                        <button class="tabs__item-btn tabs__item-btn--desc">Описание</button>
+                        <div class="tabs__content">
+                          <p class="tabs__content-text">
+                              Фланец воротниковый выполненный по стандарту ГОСТ 12821-80 – это деталь трубопровода, которая имеет дополнительное кольцо. С помощью этого кольца стальные приварные фланцы стыкуются с трубой. Далее происходит обварка соединения сварочным швом.  
+                          </p>
+                          <p class="tabs__content-text">
+                              Температурные диапазоны эксплуатации воротникового фланца от -253 C до +600 C. Рабочее давление воротникового фланца – до 20 МПА.
+                              Возможно изготовление фланцев по ГОСТ 28759.
+                          </p>
+                      </div>
+                      </div>
+                    </div>
+                   
+                
+                 
+                </div>
+
+                <div class="product-delivery">
+                    <div class="product-delivery__title">Доставка и оплата</div>
+                    <p class="product-delivery__text">
+                        ООО «Челябинская арматурная компания» сотрудничает с юридическими и частными лицами. Продукция отпускается как оптом, так и в розницу.
+                    </p>
+
+                    <div class="product-delivery__block">
+                        <div class="product-delivery__item">
+                            <div class="product-delivery__item-title">Оплата товара</div>
+                            <p class="product-delivery__item-text">
+                                По условиям ООО «ЧАК», приобретение продукции возможно как по полной, так и по частичной предоплате. Постоянные клиенты, а также заказчики крупных партий трубопроводной и запорной арматуры могут рассчитывать на скидку от компании.
+                            </p>
+                            <p class="product-delivery__item-text">
+                                Для большего удобства расчет проводится как наличными средствами, так и по безналу. Доставка в стоимость не входит и оплачивается дополнительно.
+                                На всю продукцию предоставляется гарантия сроком до полутора лет с момента отгрузки. Если вы получили некачественный товар, компания гарантирует его замену в течение месяца.
+                            </p>
+                        </div>
+                        <div class="product-delivery__item">
+                            <div class="product-delivery__item-title">Получение товара и доставка</div>
+                            <p class="product-delivery__item-text">
+                                Есть два способа получения товара – самовывоз и доставка транспортной компанией.
+                            </p>
+                            <p class="product-delivery__item-text">
+                                В первом случае продукцию можно забрать с нашего склада в рабочие часы в будни.
+                                Если вы находитесь в другом регионе или за пределами РФ, наши сотрудники организуют доставку любой транспортной компанией, на ваш выбор. Доставка до терминала ТК бесплатная, расходы на дальнейшую транспортировку груза оплачивает заказчик.
+                            </p>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="product-gallery">
+                    <div class="product-gallery__title">Фланец</div>
+                    
+                      <div class="product-slider">
+                        <div class="product-slider__wrapper">
+                            <div class="goods-block__item">
+                                <div class="goods-block__item-img">
+                                  <img src="./images/home/goods-home-img.jpg" alt="img">
+                                </div>
+                                <div class="goods-block__item-title">
+                                  Фланец воротниковый стальной Ду 80 Ру 6 ст.20 ГОСТ 12821-80
+                                </div>
+                                <div class="goods-block__info">
+                                  <div class="goods-block__info-price">ОТ 1920 ₽</div>
+                                  <div class="goods-block__info-icon">
+                                    <a href="#">
+                                      <img src="./images/home/goods-basket.svg" alt="img">
+                                    </a>
+                                  </div>
+                                </div>
+                  
+                                <a href="#" class="goods-block__item-btn btn">К товару</a>
+                              </div>
+                        </div>
+                        <div class="product-slider__wrapper">
+                            <div class="goods-block__item">
+                                <div class="goods-block__item-img">
+                                  <img src="./images/home/goods-home-img.jpg" alt="img">
+                                </div>
+                                <div class="goods-block__item-title">
+                                  Фланец воротниковый стальной Ду 80 Ру 6 ст.20 ГОСТ 12821-80
+                                </div>
+                                <div class="goods-block__info">
+                                  <div class="goods-block__info-price">ОТ 1920 ₽</div>
+                                  <div class="goods-block__info-icon">
+                                    <a href="#">
+                                      <img src="./images/home/goods-basket.svg" alt="img">
+                                    </a>
+                                  </div>
+                                </div>
+                  
+                                <a href="#" class="goods-block__item-btn btn">К товару</a>
+                              </div>
+                        </div>
+                        <div class="product-slider__wrapper">
+                            <div class="goods-block__item">
+                                <div class="goods-block__item-img">
+                                  <img src="./images/home/goods-home-img.jpg" alt="img">
+                                </div>
+                                <div class="goods-block__item-title">
+                                  Фланец воротниковый стальной Ду 80 Ру 6 ст.20 ГОСТ 12821-80
+                                </div>
+                                <div class="goods-block__info">
+                                  <div class="goods-block__info-price">ОТ 1920 ₽</div>
+                                  <div class="goods-block__info-icon">
+                                    <a href="#">
+                                      <img src="./images/home/goods-basket.svg" alt="img">
+                                    </a>
+                                  </div>
+                                </div>
+                  
+                                <a href="#" class="goods-block__item-btn btn">К товару</a>
+                              </div>
+                        </div>
+                        <div class="product-slider__wrapper">
+                            <div class="goods-block__item">
+                                <div class="goods-block__item-img">
+                                  <img src="./images/home/goods-home-img.jpg" alt="img">
+                                </div>
+                                <div class="goods-block__item-title">
+                                  Фланец воротниковый стальной Ду 80 Ру 6 ст.20 ГОСТ 12821-80
+                                </div>
+                                <div class="goods-block__info">
+                                  <div class="goods-block__info-price">ОТ 1920 ₽</div>
+                                  <div class="goods-block__info-icon">
+                                    <a href="#">
+                                      <img src="./images/home/goods-basket.svg" alt="img">
+                                    </a>
+                                  </div>
+                                </div>
+                  
+                                <a href="#" class="goods-block__item-btn btn">К товару</a>
+                              </div>
+                        </div>
+                        <div class="product-slider__wrapper">
+                            <div class="goods-block__item">
+                                <div class="goods-block__item-img">
+                                  <img src="./images/home/goods-home-img.jpg" alt="img">
+                                </div>
+                                <div class="goods-block__item-title">
+                                  Фланец воротниковый стальной Ду 80 Ру 6 ст.20 ГОСТ 12821-80
+                                </div>
+                                <div class="goods-block__info">
+                                  <div class="goods-block__info-price">ОТ 1920 ₽</div>
+                                  <div class="goods-block__info-icon">
+                                    <a href="#">
+                                      <img src="./images/home/goods-basket.svg" alt="img">
+                                    </a>
+                                  </div>
+                                </div>
+                  
+                                <a href="#" class="goods-block__item-btn btn">К товару</a>
+                              </div>
+                        </div>
+                    </div>
+                   
+                   
+                </div>
+
+
+                <div class="product-gallery product-crosseils">
+                    <div class="product-gallery__title">ВЫ просматривали ранее</div>
+
+                    <div class="product-slider">
+                        <div class="product-slider__wrapper">
+                            <div class="goods-block__item">
+                                <div class="goods-block__item-img">
+                                  <img src="./images/home/goods-home-img.jpg" alt="img">
+                                </div>
+                                <div class="goods-block__item-title">
+                                  Фланец воротниковый стальной Ду 80 Ру 6 ст.20 ГОСТ 12821-80
+                                </div>
+                                <div class="goods-block__info">
+                                  <div class="goods-block__info-price">ОТ 1920 ₽</div>
+                                  <div class="goods-block__info-icon">
+                                    <a href="#">
+                                      <img src="./images/home/goods-basket.svg" alt="img">
+                                    </a>
+                                  </div>
+                                </div>
+                  
+                                <a href="#" class="goods-block__item-btn btn">К товару</a>
+                              </div>
+                        </div>
+                        <div class="product-slider__wrapper">
+                            <div class="goods-block__item">
+                                <div class="goods-block__item-img">
+                                  <img src="./images/home/goods-home-img.jpg" alt="img">
+                                </div>
+                                <div class="goods-block__item-title">
+                                  Фланец воротниковый стальной Ду 80 Ру 6 ст.20 ГОСТ 12821-80
+                                </div>
+                                <div class="goods-block__info">
+                                  <div class="goods-block__info-price">ОТ 1920 ₽</div>
+                                  <div class="goods-block__info-icon">
+                                    <a href="#">
+                                      <img src="./images/home/goods-basket.svg" alt="img">
+                                    </a>
+                                  </div>
+                                </div>
+                  
+                                <a href="#" class="goods-block__item-btn btn">К товару</a>
+                              </div>
+                        </div>
+                        <div class="product-slider__wrapper">
+                            <div class="goods-block__item">
+                                <div class="goods-block__item-img">
+                                  <img src="./images/home/goods-home-img.jpg" alt="img">
+                                </div>
+                                <div class="goods-block__item-title">
+                                  Фланец воротниковый стальной Ду 80 Ру 6 ст.20 ГОСТ 12821-80
+                                </div>
+                                <div class="goods-block__info">
+                                  <div class="goods-block__info-price">ОТ 1920 ₽</div>
+                                  <div class="goods-block__info-icon">
+                                    <a href="#">
+                                      <img src="./images/home/goods-basket.svg" alt="img">
+                                    </a>
+                                  </div>
+                                </div>
+                  
+                                <a href="#" class="goods-block__item-btn btn">К товару</a>
+                              </div>
+                        </div>
+                        <div class="product-slider__wrapper">
+                            <div class="goods-block__item">
+                                <div class="goods-block__item-img">
+                                  <img src="./images/home/goods-home-img.jpg" alt="img">
+                                </div>
+                                <div class="goods-block__item-title">
+                                  Фланец воротниковый стальной Ду 80 Ру 6 ст.20 ГОСТ 12821-80
+                                </div>
+                                <div class="goods-block__info">
+                                  <div class="goods-block__info-price">ОТ 1920 ₽</div>
+                                  <div class="goods-block__info-icon">
+                                    <a href="#">
+                                      <img src="./images/home/goods-basket.svg" alt="img">
+                                    </a>
+                                  </div>
+                                </div>
+                  
+                                <a href="#" class="goods-block__item-btn btn">К товару</a>
+                              </div>
+                        </div>
+                        <div class="product-slider__wrapper">
+                            <div class="goods-block__item">
+                                <div class="goods-block__item-img">
+                                  <img src="./images/home/goods-home-img.jpg" alt="img">
+                                </div>
+                                <div class="goods-block__item-title">
+                                  Фланец воротниковый стальной Ду 80 Ру 6 ст.20 ГОСТ 12821-80
+                                </div>
+                                <div class="goods-block__info">
+                                  <div class="goods-block__info-price">ОТ 1920 ₽</div>
+                                  <div class="goods-block__info-icon">
+                                    <a href="#">
+                                      <img src="./images/home/goods-basket.svg" alt="img">
+                                    </a>
+                                  </div>
+                                </div>
+                  
+                                <a href="#" class="goods-block__item-btn btn">К товару</a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+        <section class="special">
+            <div class="container">
+              <div class="special-block">
+                <div class="special-block__content">
+                  <h3 class="special-block__content-title">
+                    Узнайте о наших специальных предложениях для вас. 
+                  </h3>
+                  <p class="special-block__content-text">
+                    Хотите получить коммерческое предложение быстрее? Позвоните нам 
+                    <span>+7 (999) 999-99-99</span>
+                  </p>
+                </div>
+    
+                <form  class="special-block__form">
+                  <div class="special-block__form-title">
+                    Получить специальное предложение
+                  </div>
+                  <div class="special-block__form-input">
+                    <img src="./images/home/special-user.png" alt="img">
+                    <input type="text" placeholder="Имя">
+                  </div>
+    
+                  <div class="special-block__form-input">
+                    <img src="./images/home/special-phone.png" alt="img">
+                    <input type="text" placeholder="Телефон">
+                  </div>
+    
+                  <button class="special-block__form-btn btn">Оставить заявку</button>
+                  <p class="special-block__form-text">
+                    Отправляя заявку вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности
+                  </p>
+                </form>
+              </div>
+            </div>
+          </section>
+    
+    </main>
+    <footer class="footer">
+        <div class="footer__img">
+          <img src="./images/home/footer-img.png" alt="img">
+        </div>
+        <div class="footer__bg">
+          <div class="container">
+            <div class="footer__inner">
+              <div class="footer__item footer__item--logo">
+                <a href="#" class="footer__logo">
+                  <img src="./images/home/footer-logo.png" alt="img">
+                </a>
+                <p class="footer__text">
+                  Политика конфиденциальности
+                </p>
+              </div>
+  
+              <div class="footer__wrapper">
+                <div class="footer__item">
+                  <a href="#" class="footer__item-text footer__item-text--phone">
+                    +7 (963) 474-06-50
+                  </a>
+                  <a href="#" class="footer__item-text footer__item-text-addres">
+                    chelcom@mail.ru
+                  </a>
+                  <a href="#" class="footer__item-text footer__item-text--mail">
+                    г. Челябинск, ул. Родькина, 13, помещение 202/2
+                  </a>
+                  <a href="#" class="footer__item-text footer__item-text--time">
+                    Пн-Пт 9:00-17:00
+                  </a>
+                </div>
+    
+                <div class="footer__item">
+                  <ul class="footer__menu">
+                    <li>
+                      <a href="#">О нас</a>
+                    </li>
+                    <li>
+                      <a href="#">Доставка и оплата</a>
+                    </li>
+                    <li>
+                      <a href="#">Каталог</a>
+                    </li>
+                    <li>
+                      <a href="#">Задвижки</a>
+                    </li>
+                    <li>
+                      <a href="#">Клапаны </a>
+                    </li>
+                    <li>
+                      <a href="#">Контакты</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </footer>
+ 
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
