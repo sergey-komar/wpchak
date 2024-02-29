@@ -164,4 +164,18 @@ add_filter( 'woocommerce_default_address_fields' , function ( $fields ) {
 	return $fields;
 	
 } );
+
+
+//ТАК МОЖНО ПЕРЕИМЕНОВАТЬ ЗАГОЛОВКИ В ТАБАХ НА СТАНИЦЕ ТОВАРА
+// add_filter( 'woocommerce_product_tabs', 'truemisha_rename_tabs', 25 );
+ 
+// function truemisha_rename_tabs( $tabs ) {
+ 
+// 	$tabs[ 'description' ][ 'title' ] = 'Про товар';
+// 	$tabs[ 'reviews' ][ 'title' ] = 'Что думают люди';
+// 	$tabs[ 'additional_information' ][ 'title' ] = 'Характеристики';
+ 
+// 	return $tabs;
+ 
+// }
  

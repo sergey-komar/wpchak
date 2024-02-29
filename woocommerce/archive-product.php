@@ -246,6 +246,7 @@ defined( 'ABSPATH' ) || exit;
                 </div>
                    
                         
+                
                     <div class="catalog-top">
                     <?php
                         if ( woocommerce_product_loop() ) {

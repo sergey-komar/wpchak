@@ -38,6 +38,7 @@
             <?php aws_get_search_form( true ); ?>
         
       
+            
           <div class="header__center-wrapper">
             <a href="<?php echo wc_get_cart_url()?>" class="header__center-basket">
               <img src="<?php echo get_template_directory_uri()?>/assets/images/home/basket.svg" alt="img">
